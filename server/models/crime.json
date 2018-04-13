@@ -1,0 +1,35 @@
+{
+  "name": "crime",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "apt": {
+      "type": "string"
+    },
+    "lon": {
+      "type": "number",
+      "required": true
+    },
+    "lat": {
+      "type": "number",
+      "required": true
+    },
+    "street": {
+      "type": "string"
+    },
+    "article": {
+      "type": "string",
+      "required": true
+    },
+    "crime_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
