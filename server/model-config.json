@@ -41,5 +41,9 @@
   "crime": {
     "dataSource": "crimes",
     "public": true
+  },
+  "article": {
+    "dataSource": "crimes",
+    "public": true
   }
 }
